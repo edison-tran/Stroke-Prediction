@@ -1,4 +1,4 @@
-# A Precuationary Deep Dive Into The Nature Of Stroke
+# A Precuationary Deep Dive Into The Nature of Stroke
 **Tools Used: Excel, MS SQL Server, Tableau**
 
 [Dataset Used](https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024/data)
@@ -10,14 +10,13 @@
 [Tableau Visualization](https://public.tableau.com/app/profile/edison.tran/viz/AnalyzingSmokingStatusAffectonStroke/Dashboard3)
 
 # Introduction
-Addressing the worldwide public health crisis of stroke incidents is growing to be more evident and complicated. As it stands,
-stroke is the second leading cause of death globally, being recognized by the World Health Organization. The global instance rate of 
-disabilities can also be attributed to adverse experience of stroke. While stroke rates are inherently tied to an aging population,
-there's a critical and growing trend of younger individuals in low and middle income countries suffering the ordeal of stroke. This
-unforeseen burden on younger demographics in developing countries displays an underlying public health challenge, calling for an overhaul
-of risk factors and intervention strategies. This alarming statistic underscores the critical need for proactive strategies to combat 
-stroke's worldwide toll. This project delves into a comprehensive dataset encompassing various patient attributes such as gender,
-age, pre-existing diseases, and smoking status, with the overarching aim of predicting stroke.
+Addressing the worldwide health crisis of stroke has grown to become more evident and complicated in an unprecedented manner. As it stands,
+stroke is the second leading cause of death globally, being recognized by the World Health Organization. The global instance rate of disabilities 
+can also be attributed to adverse experiences of stroke. This project delves into a comprehensive dataset encompassing various patient attributes 
+such as gender, age, pre-existing diseases, and smoking status, with the overarching aim of predicting stroke.While stroke rates are inherently tied 
+to an aging population,there's a critical and growing trend of younger individuals in low and middle-income countries suffering the ordeal of stroke. 
+This unforeseen burden on younger demographics in developing countries displays an underlying public health challenge, calling for an overhaul of risk 
+factors and intervention strategies. This discover highlights the need for precautionary actions and strategies to combat stroke's worldwide toll. 
 
 
 # Motivation and Objective
@@ -71,7 +70,15 @@ age range and 16% higher in the 70+ age range.
 ## Interplay of Risk Factors
 Patients presenting with both hypertension and heart disease exhibited no noticeable changes stroke rates across all age groups. 
 Stroke instances with both hypertension and heart disease were also found to be only 5.2% of all stroke incidents, suggesting 
-no relation between risk factors. When looking at the impact of smoking habits, individuals that had never smoked before had 
-a 49% decrease in stroke rate, whereas individuals that had formerly smoked had a 350% increase in stroke rate and individuals 
-that still smoke had a 161% increase in stroke rate.
+no causation between risk factors and stroke occurrence. When looking at the impact of smoking habits, individuals that had never 
+smoked before had a 49% decrease in stroke rate, whereas individuals that had formerly smoked had a 350% increase in stroke rate 
+and individuals that still smoke had a 161% increase in stroke rate.
 
+# Conclusion
+Through understanding the importance of stroke-related signifiers and establishing them through data-driven modeling, key demographics were 
+revealed such as physiological and lifestyle factors strongly associated with stroke. Utilizing SQL and Tableau, the goal of this project was 
+to uncover critical insights into stroke risk, heart disease, hypertension, and smoking as key drivers while revealing surprising vulnerabilities 
+among younger, urban populations. These findings provide a foundation for targeted healthcare strategies, such as improved screening for 
+hypertension in older adults and public health efforts to resolve smoking in high-risk groups. As stroke continues to be a leading cause of death 
+and disability worldwide, a data-driven approach to analyzing and predicting its occurrence is not only valuable, but essential for combatting the 
+pervasiveness of stroke incidents.
