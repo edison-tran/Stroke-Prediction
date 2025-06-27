@@ -1,4 +1,4 @@
-# A Precuationary Deep Dive Into The Nature of Stroke
+# Deep Dive Into The Nature of Stroke
 **Tools Used: Excel, MS SQL Server, Tableau**
 
 [Dataset Used](https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024/data)
