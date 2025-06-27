@@ -13,7 +13,7 @@
 Addressing the worldwide health crisis of stroke has grown to become more evident and complicated in an unprecedented manner. As it stands,
 stroke is the second leading cause of death globally, being recognized by the World Health Organization. The global instance rate of disabilities 
 can also be attributed to adverse experiences of stroke. This project delves into a comprehensive dataset encompassing various patient attributes 
-such as gender, age, pre-existing diseases, and smoking status, with the overarching aim of predicting stroke.While stroke rates are inherently tied 
+such as gender, age, pre-existing diseases, and smoking status, with the overarching aim of predicting stroke. While stroke rates are inherently tied 
 to an aging population,there's a critical and growing trend of younger individuals in low and middle-income countries suffering the ordeal of stroke. 
 This unforeseen burden on younger demographics in developing countries displays an underlying public health challenge, calling for an overhaul of risk 
 factors and intervention strategies. This discover highlights the need for precautionary actions and strategies to combat stroke's worldwide toll. 
@@ -76,10 +76,10 @@ and individuals that still smoke had a 161% increase in stroke rate.
 ## Geographic Disparities
 Regarding the influence of residence, whether individuals resided in urban or rural environments, a slight yet discernible difference
 was observed in stroke occurrences. Individuals located in urban environments had a stroke incidence rate of roughly 4.44% higher than 
-those living within rural locations. While not indicative of a drastic disparity, this distinction in stroke rate suggests subtle 
+those living in rural locations. While not indicative of a drastic disparity, this distinction in stroke rate suggests subtle 
 differences in environmental or lifestyle factors. Urban factors such as dietary standards(increased consumption of processed foods), 
-air pollution, level of physical activity, or lack of sleep may contribute to the differential. In contrast, factors may consist of limited 
-healthcare accessibility, scarcity of resources(crucial nutrients may be absent), or climate change factors could also subtly influence 
+air pollution, level of physical activity, or lack of sleep may contribute to the differential. In contrast, factors such as limited 
+healthcare accessibility, scarcity of resources(crucial nutrients may be absent), or climate change could also subtly influence 
 stroke incidence for rural inhabitants.
 
 # Conclusion
