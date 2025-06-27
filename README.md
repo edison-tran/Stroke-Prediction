@@ -36,18 +36,15 @@ high-risk groups, and enhance stroke prevention efforts globally.
 
 # Approach
 ## Data Extraction & Transformation (SQL)
-Data Cleaning:  
-Imputed missing BMI values with the median to maintain dataset integrity, given its relevance to stroke risk. Created a BMI_Missing 
+Data Cleaning: Imputed missing BMI values with the median to maintain dataset integrity, given its relevance to stroke risk. Created a BMI_Missing 
 indicator that provides clarity to instances where individuals had missing BMI values for consistent binary classification. Corrected 
 anomalies such as negative ages or inconsistent categorical entries (e.g., smoking status).
 
-Risk Factor Correlation: 
-Explored relationships between demographic factors, pre-existing conditions, lifestyle choices (smoking, work type, marriage 
+Risk Factor Correlation: Explored relationships between demographic factors, pre-existing conditions, lifestyle choices (smoking, work type, marriage 
 status), and average health metrics (average glucose level, BMI) across different patient segments. Furthermore, this lead to 
 identifying  patients with significantly higher or lower health metrics within specific demographic groups in order to determine anomalies.
 
-Analytical Queries:  
-Used aggregations to calculate stroke rates by demographic and health factors. Applied advanced SQL techniques, such as window 
+Analytical Queries: Used aggregations to calculate stroke rates by demographic and health factors. Applied advanced SQL techniques, such as window 
 functions, CTEs, and aggregate functions in order to assess risk trends across age groups and lifestyle variables.
 
 
@@ -55,6 +52,8 @@ functions, CTEs, and aggregate functions in order to assess risk trends across a
 Heatmaps: Displayed stroke risk correlations across combinations of factors, such as gender, residence type, and line of work.  
 
 Butterfly Graph: Offers analysis on between two variables based on a certain metric such as BMI distribution and age distribution. 
+
+Interactive Dashboard: Implemented calculated fields, parameters, and filters to promote and enhance interactive features realted to certain visual analysis.
 
 Dual Axis Bar Charts: Emphasizes the relationship between variables such as gender, average glucose level, and smoking status.
 
@@ -73,6 +72,15 @@ Stroke instances with both hypertension and heart disease were also found to be 
 no causation between risk factors and stroke occurrence. When looking at the impact of smoking habits, individuals that had never 
 smoked before had a 49% decrease in stroke rate, whereas individuals that had formerly smoked had a 350% increase in stroke rate 
 and individuals that still smoke had a 161% increase in stroke rate.
+
+## Geographic Disparities
+Regarding the influence of residence, whether individuals resided in urban or rural environments, a slight yet discernible difference
+was observed in stroke occurrences. Individuals located in urban environments had a stroke incidence rate of roughly 4.44% higher than 
+those living within rural locations. While not indicative of a drastic disparity, this distinction in stroke rate suggests subtle 
+differences in environmental or lifestyle factors. Urban factors such as dietary standards(increased consumption of processed foods), 
+air pollution, level of physical activity, or lack of sleep may contribute to the differential. In contrast, factors may consist of limited 
+healthcare accessibility, scarcity of resources(crucial nutrients may be absent), or climate change factors could also subtly influence 
+stroke incidence for rural inhabitants.
 
 # Conclusion
 Through understanding the importance of stroke-related signifiers and establishing them through data-driven modeling, key demographics were 
